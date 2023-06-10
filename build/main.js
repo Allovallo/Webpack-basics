@@ -10,6 +10,26 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _module_1_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module-1.js */ \"./src/module-1.js\");\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/common.css */ \"./src/css/common.css\");\n\n\nconsole.log(_module_1_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\nconsole.log('This is my JS, bro!!!');\n\n//# sourceURL=webpack://webpack-basics/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/module-1.js":
+/*!*************************!*\
+  !*** ./src/module-1.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ('module-1.js');\n\n//# sourceURL=webpack://webpack-basics/./src/module-1.js?");
+
+/***/ }),
+
 /***/ "./src/css/common.css":
 /*!****************************!*\
   !*** ./src/css/common.css ***!
@@ -37,26 +57,6 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://webpack-basics/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _module_1_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./module-1.js */ \"./src/module-1.js\");\n/* harmony import */ var _css_common_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/common.css */ \"./src/css/common.css\");\n\r\n\r\n\r\nconsole.log(_module_1_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\r\nconsole.log('This is my JS, bro!!!');\n\n//# sourceURL=webpack://webpack-basics/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/module-1.js":
-/*!*************************!*\
-  !*** ./src/module-1.js ***!
-  \*************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ('module-1.js');\n\n//# sourceURL=webpack://webpack-basics/./src/module-1.js?");
 
 /***/ })
 
